@@ -10,11 +10,11 @@ Freesurfer is found in `/opt/freesurfer`. To configure Freesufer run the followi
 export FREESURFER_HOME=/opt/freesurfer
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 ````
-Now you can use Freesurfer.
+Now you are ready to use Freesurfer.
 
 ## Setup project folder (`$SUBJECTS_DIR`)
 
-Freesufer will as a default try top put output files in the foler /home/your_username/freesurfer. Before you use Freesurfer you should configure the SUBJECTS_DIR where the output files is put by Freesurfer. It is recommended to create a folder in your home directory for your project, e.g. "home/your_username/my_project" (but with an actual informative project name and your actual username). In that folder you then create a folder called "fs_subjects_dir" for the Freesurfer data.
+Freesufer will as a default try to put output files in the foler "/home/your_username/freesurfer". Before you use Freesurfer you should configure the SUBJECTS_DIR where the output files is put by Freesurfer. It is recommended to create a folder in your home directory for your project, e.g. "home/your_username/my_project" (but with an actual informative project name and your actual username). In that folder you then create a folder called "fs_subjects_dir" for the Freesurfer data.
 
 You then configure the SUBJECTS_DIR by running the following code:
 
