@@ -1,5 +1,4 @@
-# Read split files into FieldTrip
-Sometimes data recordings are split into several files, wither because the recording was started and stopped during data acquisition, or because the 2 GB maximum file size of FIF means that long recording sessions are split over several files. When you read data into fieldtrip, you then need to merge the split files into one data file for further processing and correct the samples so that the files align. There are several ways you can achieve this.
+Sometimes data recordings are split into several files, wither because the recording was started and stopped during data acquisition, or because the 2 GB maximum file size of FIF means that long recording sessions are split over several files. When you read data into FieldTrip, you then need to merge the split files into one data file for further processing and correct the samples so that the files align. There are several ways you can achieve this.
 
 ## A) Read all files, concatenate, and then create trials
 Manually correct sample info by reading the header and events with `ft_read_header` and `ft_read_event`. 
@@ -43,7 +42,7 @@ scatter(allsam, [eve2.value], 'r')
 
 In the next step, I did the selection based on the trigger values in the different conditions, like this: `rsp_taskA = [eve2.value] == 2`. I did this for all the different conditions; in this case three different conditions.
 
-Then create the `trl` structure manually. Specify how much time you would like before (`prestim`) and after (`poststim`). In contrast to `ft_define_trial`, this should be specified in number of samples rather than seconds.
+Then create the `trl` structure manually. Specify how much time you would like before (`prestim`) and after (`poststim`). In contrast, to `ft_define_trial`, this should be specified in number of samples rather than seconds.
 
 ````matlab
 sam_taskA = allsam(rsp_taskA);
@@ -83,5 +82,5 @@ epo_meg = ft_redefinetrial(cfg, raw_meg);
 
 ## B) Make epochs immediately, then merge split files
 
-<documentaion>
+* add...
 
