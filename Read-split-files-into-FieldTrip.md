@@ -14,7 +14,7 @@ infiles = {
 
 Then read events and headers. This code assumes that the trigger channel is `STI101`.
 
-````matlab
+````Matlab
 %% Read events
 for ii = 1:length(infiles)
     hdrs{ii} = ft_read_header(infiles{ii});
@@ -40,9 +40,9 @@ plot(allsam, [eve2.value], 'k');
 scatter(allsam, [eve2.value], 'r')
 ````
 
-In the next step, I did the selection based on the trigger values in the different conditions, like this: `rsp_taskA = [eve2.value] == 2`. I did this for all the different conditions; in this case three different conditions.
+In the next step, I did the selection based on the trigger values in the different conditions, like this: `rsp_taskA = [eve2.value] == 2`. I did this for all the different conditions; in this case, three different conditions.
 
-Then create the `trl` structure manually. Specify how much time you would like before (`prestim`) and after (`poststim`). In contrast, to `ft_define_trial`, this should be specified in number of samples rather than seconds.
+Then create the `trl` structure manually. Specify how much time you would like before (`prestim`) and after (`poststim`). In contrast, to `ft_define_trial`, this should be specified in *number of samples* rather than seconds.
 
 ````matlab
 sam_taskA = allsam(rsp_taskA);
@@ -59,11 +59,11 @@ trl = [sam_cmb+prestim, sam_cmb+poststim, repmat(prestim,size(sam_cmb)), con_cmb
 
 Then you can read in the MEG data split-files as usual and do whatever initial pre-processing you want to do with `ft_preprocessing`. Then use `ft_redefinetrial` to chop into epochs based on your previously defined `trl` structure.
 
-```matlab
+```Matlab
 %% Read all datafiles
 for ii = 1:length(infiles)
-	cfg = [];
-	cfg.channel         = 'MEG';
+    cfg = [];
+    cfg.channel         = 'MEG';
     cfg.dataset         = infiles{ii};
     split_meg{ii} = ft_preprocessing(cfg);
 end
