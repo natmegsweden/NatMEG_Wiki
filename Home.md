@@ -1,1 +1,2 @@
-Welcome to the NatMEG_Wiki wiki!
+Welcome to the NatMEG wiki!
+
