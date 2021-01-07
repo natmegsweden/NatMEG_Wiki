@@ -58,6 +58,8 @@ The first time you connect to your VNC session on compute, you will be prompted 
 
 You now have a remote window connected to compute.
 
+> If you experience a black screen with an error when you connect, see [here](https://github.com/natmegsweden/NatMEG_Wiki/wiki/VNC-black-screen-error).
+
 ## Connect to compute with VNC
 Once the setup is complete, you connect to the servers like this:
 1. Open PuTTy. If you saved the settings (as instructed above), click “Open”. Then enter your username and password. 
