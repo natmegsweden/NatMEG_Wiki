@@ -6,7 +6,7 @@ To edit the file:
 1. Type `vim .bashrc`. 
 2. Type `i` to enter edit mode.
 3. Comment all lines that have to do with Anaconda by placing a `#` in front of the line. Do not delete the lines.
-4. Press `Esc` to exit edit mode and then type ":wq!" to exit.
+4. Press `Esc` to exit edit mode and then type `:wq!` to exit.
 
 You should now be able to open the VNC viewer. If not, try to kill the VNC server (`vncserver -kill :X` where `X` is your VNC number) and start a new vncserver.
 
