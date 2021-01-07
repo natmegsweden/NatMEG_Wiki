@@ -1,7 +1,7 @@
 Welcome to the NatMEG wiki, here you can find documentation for issues related to the NatMEG lab, including lab guides, the data analysis infrastructure (the Compute server), and tips for data analysis.
 
 ## Working in the lab
-* ...
+* [Lab protocol example](https://natmeg.se/services/MEG_protocol_template.docx)
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
 * [Guide for setting up Freesurfer on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Guide-for-setting-up-Freesurfer-on-Compute)
