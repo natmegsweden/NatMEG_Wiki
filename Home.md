@@ -4,6 +4,7 @@ Welcome to the NatMEG wiki, here you can find documentation for issues related t
 * [Lab protocol example](https://natmeg.se/services/MEG_protocol_template.docx)
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
+* [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
 * [Guide for setting up Freesurfer on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Guide-for-setting-up-Freesurfer-on-Compute)
 ## Data analysis
 * [Read split files into FieldTrip](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Read-split-files-into-FieldTrip)
