@@ -15,3 +15,11 @@ This is possibly the same/related error:
 
 **Solution**: Problaly that the drivers need to be updated by someone with sudo access. Until then this post tell how to permanently igore the pop-up message: https://unix.stackexchange.com/questions/242423/banish-a-popup-error-message.
 
+## Black screen when starting VNC viewer
+**Problem:**
+
+![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_1-1.png)
+
+**Solution:** [see this page](https://github.com/natmegsweden/NatMEG_Wiki/wiki/VNC-black-screen-error)
+
+
