@@ -1,4 +1,10 @@
-You might experience a black screen with an error message [if anyone could take a screenshot of the error message, please do] when you first log in to a new VNC server. The error seems to be due to Anaconda/Python initiation, which messes with the VNC config in some way. I have not been able to solve the problem [if you know, please tell me!], but the following procedure circumvents the problem:
+You might experience a black screen with an error message when you first log in to a new VNC server.
+
+![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_1-1.png)
+
+![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_2-1.png)
+
+The error seems to be due to Anaconda/Python initiation, which messes with the VNC config in some way. I have not been able to solve the problem definitly [if you know, please tell me! @mcvinding], but the following procedure circumvents the problem:
 
 Open PuTTy to connect to Compute as [usual](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute). Then in the terminal, before you open your VNC viewer, you have to uncomment all reference to Anaconda in your local `.bashrc` file (these are the setting that you load every time you start a terminal). You can see the content of the file by typing `cat .bashrc` in the terminal.
 
