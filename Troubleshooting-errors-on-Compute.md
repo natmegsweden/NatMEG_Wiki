@@ -16,7 +16,7 @@ This is possibly the same/related error:
 **Solution**: Probably that the drivers need to be updated by someone with sudo access. Until then, this post tells how to ignore the pop-up message permanently: Launch a Terminal Console and type `gnome-session-properties` and then uncheck the PackageKit Update Applet (from https://unix.stackexchange.com/questions/242423/banish-a-popup-error-message).
 
 ## Black screen when starting VNC viewer
-** problem:**
+**problem:**
 
 ![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_1-1.png)
 
