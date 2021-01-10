@@ -3,7 +3,7 @@ This is a list of errors and bugs that have been encountered on Compute and the 
 Please add if you frequently encounter a bug that is not on the list or if you know the solution to an issue not yet solved.
 
 ## Pop-op asking for authentification for update
-** problem**: a pop-op prompt saying "*Authentification is required to set the network proxy used for downloading packages*" keeps appears but require sudo right to continue.
+**Problem**: a pop-op prompt saying "*Authentification is required to set the network proxy used for downloading packages*" keeps appears but require sudo right to continue.
 
 ![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_4-1.png)
 
