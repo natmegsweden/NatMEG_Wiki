@@ -13,7 +13,9 @@ This is possibly the same/related error:
 
 **Cause**: It seems to be a generic error message, so I have a hard time identifying the problem. I guess that there is an outdated driver somewhere? [@mcvinding]
 
-**Solution**: Probably that the drivers need to be updated by someone with sudo access. Until then, this post tells how to ignore the pop-up message permanently: Launch a Terminal Console and type `gnome-session-properties` and then uncheck the PackageKit Update Applet (from https://unix.stackexchange.com/questions/242423/banish-a-popup-error-message).
+**Solution**: Probably that the drivers need to be updated by someone with sudo access. Until then, this post tells how to ignore the pop-up message permanently: Launch a Terminal Console and type `gnome-session-properties` and then uncheck the PackageKit Update Applet. Then restart your [VNC server](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute).
+
+Solution from https://unix.stackexchange.com/questions/242423/banish-a-popup-error-message.
 
 ## Black screen when starting VNC viewer
 **problem:**
