@@ -1,4 +1,4 @@
-%Remove trials from cfg.trl that have negative sample index for trial start
+`%Remove trials from cfg.trl that have negative sample index for trial start`
 notneg = cfg.trl(:,1) >= 0
 cfg.trl = cfg.trl(notneg,:)
   
