@@ -8,7 +8,7 @@ First, specify the filenames:
 ````matlab
 infiles = {
     fullfile(raw_path,'data_tsss_mc.fif'),
-    fullfile(raw_path,'fata-1_tsss_mc.fif')
+    fullfile(raw_path,'data-1_tsss_mc.fif')
     };
 ````
 
