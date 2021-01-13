@@ -23,7 +23,7 @@ for ii = 1:length(infiles)
 end
 ````
 
-No correct the sample value by adding the number of samples in the previous file to the sample index of the next file.
+Now, correct the sample value by adding the number of samples in the previous file to the sample index of the next file.
 
 ````matlab
 sam1 = [eve{1}.sample]; 
