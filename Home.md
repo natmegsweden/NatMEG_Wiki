@@ -1,7 +1,7 @@
 Welcome to the NatMEG wiki, here you can find documentation for issues related to the NatMEG lab, including lab guides, the data analysis infrastructure (the Compute server), and tips for data analysis.
 
 ## Working in the lab
-* [Lab protocol example](https://natmeg.se/services/MEG_protocol_template.docx)
+* [Lab protocol example (docx download)](https://natmeg.se/services/MEG_protocol_template.docx)
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
 * [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
@@ -9,4 +9,7 @@ Welcome to the NatMEG wiki, here you can find documentation for issues related t
 ## Data analysis
 * [Read split files into FieldTrip](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Read-split-files-into-FieldTrip)
 * [Select a limited number of trials in FieldTrip](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Select-limited-number-of-trials-in-FieldTrip)
+## [Useful code snippets](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Useful-code-snippets)
+* [Ignore trials between split fif-files](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Ignore-trials-split-between-fif-files)
+
 
