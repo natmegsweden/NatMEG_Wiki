@@ -11,7 +11,7 @@ This is possibly the same/related error:
 
 ![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_5-1.png)
 
-**Cause**: It seems to be a generic error message, so I have a hard time identifying the problem. I guess that there is an outdated driver somewhere? [@mcvinding]
+**Cause**: It seems to be a generic error message, so I have a hard time identifying the problem. I guess that there is an outdated driver somewhere? [Update 2021-01-21: this should be fixed now @mcvinding]
 
 **Solution**: Probably that the drivers need to be updated by someone with sudo access. Until then, this post tells how to ignore the pop-up message permanently: Launch a Terminal Console and type `gnome-session-properties` and then uncheck the PackageKit Update Applet. Then restart your [VNC server](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute).
 
