@@ -1,4 +1,4 @@
-**[HOME](https://github.com/natmegsweden/NatMEG_Wiki/wiki)**
+## [HOME](https://github.com/natmegsweden/NatMEG_Wiki/wiki)
 
 ## Working in the lab
 * Lab FAQ
