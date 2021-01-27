@@ -1,7 +1,7 @@
 ## [HOME](https://github.com/natmegsweden/NatMEG_Wiki/wiki)
 
 ## Working in the lab
-* Lab FAQ
+* [NatMEG Lab FAQ](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/NatMEG%20lab%20FAQ.pdf)
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
 * [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
