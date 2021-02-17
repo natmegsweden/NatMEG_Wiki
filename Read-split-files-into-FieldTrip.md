@@ -1,6 +1,37 @@
 Sometimes data recordings are split into several files, wither because the recording was started and stopped during data acquisition, or because the 2 GB maximum file size of FIF means that long recording sessions are split over several files. When you read data into FieldTrip, you then need to merge the split files into one data file for further processing and correct the samples so that the files align. There are several ways you can achieve this.
+## Option A (the best solution): Read files from cell-array
+Specify the filenames of split-files in a cell array (or use [find_files](https://github.com/natmegsweden/NatMEG_Wiki/wiki/How-to-find-all-raw-files-that-belongs-to-the-same-condition)):
 
-## A) Read all files, concatenate, and then create trials
+````matlab
+fnames = {'file1.fif', 'file2,fif', 'file3.fif'}
+````
+Then specify `cfg.dataset` as the array of filenames. Example:
+
+````matlab
+% Define trials
+cfg = [];
+cfg.dataset             = fnames ;  % This is the cell-array
+cfg.trialdef.prestim    = 1;        % seconds before trigger
+cfg.trialdef.poststim   = 1;        % seconds after trigger
+cfg.trialdef.eventtype  = 'STI101';
+cfg.trialdef.eventvalue = [257, 258, 260];
+cfg.trialfun            = 'ft_trialfun_neuromagSTI016fix';
+
+cfg = ft_definetrial(cfg);
+
+% preprocessing
+cfg.demean     = 'yes';
+cfg.lpfilter   = 'yes';
+cfg.lpfreq     = 100;
+cfg.hpfilter   = 'no';
+cfg.dftfilter  = 'no';
+cfg.allowoverlap = 'yes';
+cfg.channel    = {'MEG', 'ECG', 'EOG'};
+
+epochs = ft_preprocessing(cfg);
+````
+
+## Option B: Read all files, concatenate, and then create trials
 Manually correct sample info by reading the header and events with `ft_read_header` and `ft_read_event`. 
 
 First, specify the filenames:
