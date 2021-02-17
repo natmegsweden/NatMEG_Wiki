@@ -8,20 +8,30 @@ function [files] = find_files(folder, inc_str, exc_str)
 % exc_str : String that exclude files.
 
 % Init.
-if ischar(inc_str)
-    inc_str = {inc_str};
-elseif ~iscell(inc_str)
-    warning('Inclusion string must be a string or cell-array with strings.')
-    return
+if nargin < 1
+    error('Must have a filepath')
 end
 
-if ~isempty(exc_str)
+if nargin > 1    
+    if ischar(inc_str)
+        inc_str = {inc_str};
+    elseif ~iscell(inc_str)
+        warning('Inclusion string must be a string or cell-array with strings.')
+        return
+    end
+else
+    inc_str = [];
+end
+
+if nargin > 3
     if ischar(exc_str)
         exc_str = {exc_str};
     elseif ~iscell(exc_str)
         warning('Exclusion string must be a string, cell-array with strings, or empty.')
         return
     end
+else
+    exc_str = [];
 end
     
 % Find files in folder
