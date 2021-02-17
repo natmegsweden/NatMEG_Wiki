@@ -1,5 +1,6 @@
 Sometimes data recordings are split into several files, wither because the recording was started and stopped during data acquisition, or because the 2 GB maximum file size of FIF means that long recording sessions are split over several files. When you read data into FieldTrip, you then need to merge the split files into one data file for further processing and correct the samples so that the files align. There are several ways you can achieve this.
-## Option A (the best solution): Read files from cell-array
+
+## Option A: Read files from cell-array (the best solution)
 Specify the filenames of split-files in a cell array (or use [find_files](https://github.com/natmegsweden/NatMEG_Wiki/wiki/How-to-find-all-raw-files-that-belongs-to-the-same-condition)):
 
 ````matlab
@@ -111,7 +112,7 @@ epo_meg = ft_redefinetrial(cfg, raw_meg);
 ```
 
 
-## B) Make epochs immediately, then merge split files
+## Option C: Make epochs immediately, then merge split files
 
 See [here](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Ignore-trials-split-between-fif-files)
 
