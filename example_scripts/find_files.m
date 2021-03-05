@@ -23,7 +23,7 @@ else
     inc_str = [];
 end
 
-if nargin > 3
+if nargin >= 3
     if ischar(exc_str)
         exc_str = {exc_str};
     elseif ~iscell(exc_str)
