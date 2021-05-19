@@ -1,4 +1,4 @@
-This is a list of know errors with common data analysis software and tool on Compute.
+This is a list of know errors with common data analysis software and tools on Compute.
 
 ## FieldTrip
 * Plots, especially source plots, takes a long time to plot. Solution: be patient!
