@@ -6,6 +6,7 @@ This is a list of pages with useful code snippets for data analysis to make life
 * [Consistent filenames in loops](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Consistent-filenames-in-loops)
 * [Select a limited number of trials in FieldTrip](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Select-limited-number-of-trials-in-FieldTrip)
 * [How to find all raw files that belong to the same condition](https://github.com/natmegsweden/NatMEG_Wiki/wiki/How-to-find-all-raw-files-that-belongs-to-the-same-condition)
+* [Fix scrambled sensor locations](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Scrambled-MEG-sensor-locations)
 
 ## Python
 * ...
