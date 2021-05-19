@@ -16,7 +16,7 @@ Also, you cannot plot the sensor layout with `ft_plot_sens(data.grad)`:
 Error using ft_plot_sens (line 448)
 cannot work with balanced gradiometer definition
 ````
-*WARNING*: If you have this error, it is potentially a big problem if you are doing source reconstruction, as the geometry of the sensors relative to the brain is wrong (see the figures above again!). This another reason, why you should always plot the alignment of headpoints, the headmodel, and sensors before doing source reconstruction.
+*WARNING*: If you have this error, it is potentially a big problem if you are doing source reconstruction, as the geometry of the sensors relative to the brain is wrong (see the figures above again!). This another reason, why you should always [plot the alignment](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Plot-head-channel-alignment-in-FieldTrip) of headpoints, the headmodel, and sensors before doing source reconstruction.
 
 The problem comes from the reconstruction of the channels when removing ICA components (`ft_rejectcomponent`). 
 
