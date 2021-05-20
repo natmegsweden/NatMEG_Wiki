@@ -11,3 +11,6 @@ This is a list of pages with useful code snippets for data analysis to make life
 
 ## Python
 * ...
+
+## R
+* [R trouble shooting]
