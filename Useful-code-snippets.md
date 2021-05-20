@@ -13,4 +13,4 @@ This is a list of pages with useful code snippets for data analysis to make life
 * ...
 
 ## R
-* [R trouble shooting]
+* [R trouble shooting](https://github.com/natmegsweden/NatMEG_Wiki/wiki/R-trouble-shooting)
