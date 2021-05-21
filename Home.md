@@ -13,6 +13,7 @@ Welcome to the NatMEG wiki, here you can find documentation for issues related t
 * [Tips for writing scripts and data management](https://github.com/natmegsweden/meeg_course/blob/master/tutorial_00_tips_for_writing_scripts.md)
 * [Tutorial scripts for MEG/EEG analysis](https://github.com/natmegsweden/meeg_course)
 * [Consistent filenames in loops](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Consistent-filenames-in-loops)
+* [Understand MaxFilter filenames](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Understand-MaxFilter-filenames)
 
 ## [Useful code snippets](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Useful-code-snippets)
 * [Ignore trials between split fif-files](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Ignore-trials-split-between-fif-files)
