@@ -1,7 +1,7 @@
 Sometimes data recordings are split into several files, either because the recording was started and stopped during data acquisition, or because the 2 GB maximum file size of FIF means that long recording sessions are split over several files. When you read data into FieldTrip, you then need to merge the split files into one data file for further processing and correct the samples so that the files align. There are several ways you can achieve this.
 
 ## Option A: Read files from cell-array (the best solution)
-*This might not work!*
+*This might not work! Tested 2021-05-25 and it worked for filenames listed in a cell array*
 
 Specify the filenames of split-files in a cell array (or use [find_files](https://github.com/natmegsweden/NatMEG_Wiki/wiki/How-to-find-all-raw-files-that-belongs-to-the-same-condition)):
 
