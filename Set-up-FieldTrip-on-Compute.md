@@ -12,4 +12,4 @@ Find the link for the remote repository (on the GitHub page) and clone it. This 
 git clone git@github.com:fieldtrip/fieldtrip.git
 ````
 
-You should now have FieldTrip in your folder. To use FieldTrip, start MATLAB, go to the directory where you just clones FieldTrip, and run `ft_defaults` in the command window.
+You should now have FieldTrip in your folder. To use FieldTrip, start MATLAB, go to the directory where you just cloned FieldTrip, and run `ft_defaults` in the command window.
