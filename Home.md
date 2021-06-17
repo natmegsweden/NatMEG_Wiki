@@ -9,6 +9,8 @@ Welcome to the NatMEG wiki, here you can find documentation for issues related t
 * [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
 * [Guide for setting up Freesurfer on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Guide-for-setting-up-Freesurfer-on-Compute)
 * [Set up MNE-Python on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Set-up-MNE-Python-on-Compute)
+* [Set up FieldTrip on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Set-up-FieldTrip-on-Compute)
+
 ## Data analysis
 * [Known issues on Compute (and how to fix)](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Known-issues-on-Compute)
 * [Tips for writing scripts and data management](https://github.com/natmegsweden/meeg_course/blob/master/tutorial_00_tips_for_writing_scripts.md)
