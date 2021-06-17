@@ -1,7 +1,7 @@
 Welcome to the NatMEG wiki, here you can find documentation for issues related to the NatMEG lab, including lab guides, the data analysis infrastructure (the Compute server), and tips for data analysis.
 
 ## Working in the lab
-* [NatMEG Lab FAQ](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/NatMEG%20lab%20FAQ.pdf)
+* [NatMEG Lab FAQ (pdf download)](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/NatMEG%20lab%20FAQ.pdf)
 * [Lab protocol example (docx download)](https://natmeg.se/services/MEG_protocol_template.docx)
 
 ## Setting up data analysis
