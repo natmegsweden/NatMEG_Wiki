@@ -8,6 +8,7 @@
 * [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
 * [Guide for setting up Freesurfer on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Guide-for-setting-up-Freesurfer-on-Compute)
 * [Set up MNE-Python on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Set-up-MNE-Python-on-Compute)
+* [Set up FieldTrip on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Set-up-FieldTrip-on-Compute)
 
 ## Data analysis
 * [Known issues on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Known-issues-on-Compute)
