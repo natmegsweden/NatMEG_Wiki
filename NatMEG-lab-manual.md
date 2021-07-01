@@ -1,7 +1,7 @@
 # Eye-tracker
-> ## Before
-> ## During measure
-> ## After measure
+|   Before   |   During   |   After   |
+| ---------- | ---------- | --------- |
+
 # Audio mixer
 # Video mixer
 # Screen
