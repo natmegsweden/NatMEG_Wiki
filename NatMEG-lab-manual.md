@@ -1,1 +1,4 @@
-# 1. Preparing for an experiment
+# Eye-tracker
+# Audio mixer
+# Video mixer
+# Screen
