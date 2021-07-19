@@ -2,14 +2,8 @@ This is a list of common errors and bugs that have been encountered on Compute a
 
 Please add if you frequently encounter a bug that is not on the list or if you know the solution to an issue not yet solved.
 
+* [Black screen when starting VNC viewer](https://github.com/natmegsweden/NatMEG_Wiki/wiki/VNC-black-screen-error)
+* [VNC connection is dead or cannot be closed](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Close-VNC-connection#close-vnc-connection-errors)
+* [Pop-op asking for authentification for update](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connection-error:-pop-op-asking-for-authentification-for-update)
+
 There is also a page on known errors related to specific data analysis toolboxes [here](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Known-issues-on-Compute).
-
-## Pop-op asking for authentification for update
-
-
-## Black screen when starting VNC viewer
-**problem:**
-
-![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/Fig_1-1.png)
-
-**Solution:** [see this page](https://github.com/natmegsweden/NatMEG_Wiki/wiki/VNC-black-screen-error)
