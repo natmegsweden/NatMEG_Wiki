@@ -6,3 +6,6 @@ This is a list of know errors with common data analysis software and tools on Co
 
 ## MNE-Python
 * [MNE coregistration keep crashing](https://github.com/natmegsweden/NatMEG_Wiki/wiki/MNE-coregistration-crash)
+
+## R
+* [R troubleshooting](https://github.com/natmegsweden/NatMEG_Wiki/wiki/R-trouble-shooting)
