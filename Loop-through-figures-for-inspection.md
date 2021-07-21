@@ -1,5 +1,5 @@
 An example of how to use `uiwait()` in a loop to inspect some summary figure per subject. Mind that `load()` may be slow with large files.
-
+<br>
 
     for i = 1:length(sub_date.ID);
     
@@ -27,8 +27,7 @@ An example of how to use `uiwait()` in a loop to inspect some summary figure per
 
     end
 
-
-
+<br>
 
 This loop presents this figure:
 
