@@ -9,6 +9,7 @@ This is a list of pages with useful code snippets for data analysis to make life
 * [Fix scrambled sensor locations](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Scrambled-MEG-sensor-locations)
 * [Plot sensor alignment in FieldTrip](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Plot-head-channel-alignment-in-FieldTrip)
 * [Read non-MaxFiltered data](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Read-non-MaxFiltered-data#fieldtrip)
+* [Loop through figures for inspection](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Loop-through-figures-for-inspection)
 
 ## Python/MNE-Python
 * [Read non-MaxFiltered data](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Read-non-MaxFiltered-data#mne-python)
