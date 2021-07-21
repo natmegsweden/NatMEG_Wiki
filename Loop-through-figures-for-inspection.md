@@ -26,3 +26,7 @@ An example of how to use `uiwait()` in a loop to inspect some summary figure per
         uiwait(fig);
 
     end
+
+This loop presents this figure:
+
+![](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/exampleplot1.png)
