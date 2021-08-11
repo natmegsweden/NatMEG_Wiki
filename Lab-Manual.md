@@ -24,7 +24,7 @@ Just remember that the participant can see what you see on the screen.
 
 There are one audio mixer and one video mixer in the lab.
 
-![](wiki_images/audio_mixer.jpg)
+![audio_mixer](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer.jpg)
 
 ### Before measurement
 1. Make sure speakers is on
