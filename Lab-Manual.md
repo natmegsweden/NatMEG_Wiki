@@ -9,7 +9,7 @@
 
 ---
 
-Acquisition
+# Acquisition
 
 
 ---
@@ -73,6 +73,9 @@ Remember to press the correct talkback button when communicating the the partici
 - Make sure that the MSR monitor (the big loudspeaker on top of the Stimulation Cabinet) is switched on. The on/off switch is on the backside of the MSR monitor. The light in the logo on the front of the monitor will be on when the monitor is turned on.
 - Make sure that you are using the correct talkback option; i.e. using the sound tube talkback when using the sound tubes.
 - Make sure that the sound mixer is turned on. The sound also go through the video mixer; make sure that the video mixer is also turned on. Buttons on the video mixer have a red light when they are turned on. There is a small on/off switch on the back of the video mixer to turn it back on if it has been turned off.
+
+---
+# Bad channels
 
 ---
 
