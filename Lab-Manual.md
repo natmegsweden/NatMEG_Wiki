@@ -1,6 +1,20 @@
 # Table of content
+
+* [Eye-tracker](#eye-tracker)
 * [Showing visual stimuli on the screen](#showing-visual-stimuli-on-the-screen)
 * [Using audio](#using-audio)
+
+---
+# Eye-tracker
+
+### Equipment you need:
+- The screen
+- Eye-tracker
+
+| Before                       | During                         | After |
+| ----                         | ------                         | ------ | 
+
+| Put screen in right position [See this section](#showing-visual-stimuli-on-the-screen) | Monitor | remove eye-tracker | 
 
 ---
 # Showing visual stimuli on the screen
