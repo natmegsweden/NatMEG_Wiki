@@ -6,6 +6,7 @@
 * [Eye-tracker](#eye-tracker)
 * [HPI](#hpi)
 * [Lab notebook](#lab-notebook)
+* [Monitors](#monitors)
 * [Screen and projector](#screen-and-projector)
 * [Tuning](#tuning)
 
@@ -169,8 +170,26 @@ The eye-tracker has been disconnected from the cables in the MSR. Reconnect the 
 # HPI
 
 ## Before measurement
+To monitor head position, open a terminal and type:
+> /data/MNE/mne_visualize_hpi
+
+The head position is read from the latest HPI fit. Click" Reload HPI" to update the view.
+> ! Be aware that the head position tool does not show the actual participants head. The head is a template head and should only be used as an approximation of the participant's real head position in the MEG helmet.
+
+
+
 ## During measurement
+
+You can rotate the head using the buttons on the GUI or by using the mouse wheel. You can change what is displayed (helmet, transparency, HPI on/off, head point fits, etc.) by pressing "Options...".
+
+To view the head position from a previous file (e.g. for comparison) open a new terminal window and type: 
+> /data/MNE/mne_visualize_hpi_file <filename>
+
+The <filename> is the filename of the file you want to read including the full path
+
 ## After measurement
+Close head position tool
+
 
 ## Issues
 ### Acquisition does not ask about measuring HPI
@@ -226,7 +245,20 @@ This shuts down all Firefox processes. Then open the notebook server and the not
 
 ---
 
+# Monitors
 
+## Dual monitors
+You can use dual monitors on the Stimulation PC if you want to run Presentation separate from the screen shown to the participant in the MSR, for example, if you are going to show a video to the participant instead of the Presentation screen.
+
+1. On the Stimulation PC, right-click on the Windows desktop and select Screen Settings.
+2. Change the so that the screens are extended. Confirm changes.
+3. On the second screen (the one connected to the eye tracker), switch input to DVI.
+
+Presentation will still as a default run on the first monitor. Change the monitor by changing your Presentation project settings. Under the menu "Monitors" you change the driver from "Standard Driver" to the one with a number.
+
+## After measurement
+Remember to switch the screens back to the standard setting when you are done.
+---
 # Screen and projector
 
 ## Equipment required
