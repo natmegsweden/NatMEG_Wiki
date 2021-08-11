@@ -181,9 +181,17 @@ If [Acquisition](#acquisition) does not ask about measuring HPI, it might be bec
 > ! Note that every time you click start in Acquisition, it saves a new preparation, so make sure that you note the time you saved the preparation with the digitized HPI on the digitization PC.
 
 ### HPI errors
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-results.png" alt="hpi-results" width="700"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-results.png" alt="hpi-results" width="400"/>
 
 <u>Problem</u>: Errors with HPI. It gives an error message or Suggestion is redo HPI.
+
+<u>Solution</u>:
+1. Make sure the correct preparation is loaded with the digitized HPI coil locations.
+2. Check that the HPI cable is connected to the panel at the side of the scanner.
+3. Click "Try again" to see if the fit has improved.
+4. Make sure that all HPI coils on the participant's head is inside the helmet. If possible, reposition the participant, so at least three HPI coils are inside the helmet. Click "Try again" to see if the fit has improved. If not, proceed to step six.
+5. Check for loose coils that might have come off. Do not try to re-attach them; go to step six.
+6. Redo HPI/isotrak fit: Get the participant out of the scanner to the preparation area. Then reposition/re-attach HPI coils and redo the digitization.
 
 ---
 
