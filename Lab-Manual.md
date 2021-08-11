@@ -84,6 +84,7 @@ Remember to press the correct talkback button when communicating the the partici
 > ! If you do not see a terminal on the eye-tracking PC when you turn on the screen
 > - Check that the screen setting of the Stimulation PC is not set in dual screen mode and that the correct input channel is selected
 > - Check that the eye-tracking computer is turned on. The computer is found at the bottom of the stimulation cabinet
+
 > ! To start eye-tracker in simulation mode type *t -x* and press enter
 
 3. Make sure you have the right configuration for your needs
