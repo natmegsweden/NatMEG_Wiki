@@ -2,7 +2,7 @@
 
 * [Acquisition](#acquisition)
 * [Audio mixer](#audio-mixer)
-* [Bad channels](#bad-channels)
+* [Check channels](#check-channels)
 * [Eye-tracker](#eye-tracker)
 * [Screen and projector](#screen-and-projector)
 * [Tuning](#tuning)
@@ -75,7 +75,25 @@ Remember to press the correct talkback button when communicating the the partici
 - Make sure that the sound mixer is turned on. The sound also go through the video mixer; make sure that the video mixer is also turned on. Buttons on the video mixer have a red light when they are turned on. There is a small on/off switch on the back of the video mixer to turn it back on if it has been turned off.
 
 ---
-# Bad channels
+# Check channels
+
+After [tuning](#tuning) and before each measurement you should check the channels.
+
+## Before measurement
+1. Click  *GO!*  in the [Acquisition](#acquisition) control window
+2. Browse through channels to see if everything looks alright
+3. If everything looks good you are ready to start recording, if not see [below](#fixing-bad-channels-before-recording)
+
+## During measurement
+If door is opened or between condition when recording has been stopped redo the steps above
+
+## After measurement
+No action required
+
+## Issues
+### Fixing bad channels before recording
+<u>Problem</u>: Jumpy or noisy channels
+<u>Solution</u>: Use Squiddler to heat bad channels
 
 ---
 
