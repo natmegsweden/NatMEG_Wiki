@@ -19,10 +19,12 @@ Just remember that the participant can see what you see on the screen.
 ### After measurement
 1. Move the screen away from the chair
 2. Turn off the projector by pressing twice on the remote
-
+---
 # Using audio
 
 There are one audio mixer and one video mixer in the lab.
+
+
 
 ### Before measurement
 1. Make sure speakers is on
