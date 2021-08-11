@@ -24,8 +24,8 @@ Just remember that the participant can see what you see on the screen.
 
 There are one audio mixer and one video mixer in the lab. Both should always be turned on.
 
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer.jpg" alt="audio_mixer" width="500"/>
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/video_mixer.jpg" alt="video_mixer" width="500"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer.jpg" alt="audio_mixer" width="400"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/video_mixer.jpg" alt="video_mixer" width="400"/>
 
 ### Before measurement
 1. Make sure speakers is on
