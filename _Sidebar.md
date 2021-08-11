@@ -2,6 +2,7 @@
 
 ## Working in the lab
 * [NatMEG Lab FAQ](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/NatMEG%20lab%20FAQ.pdf)
+* [NatMEG Lab Manual](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Lab-Manual)
 
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
