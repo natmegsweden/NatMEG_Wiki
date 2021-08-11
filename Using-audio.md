@@ -1,4 +1,4 @@
-# Use the audio mixer
+# Using audio
 
 There are one audio mixer and one video mixer in the lab.
 
