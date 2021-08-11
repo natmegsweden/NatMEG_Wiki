@@ -38,5 +38,5 @@ There are one audio mixer and one video mixer in the lab. Both should always be 
 Remember to press the correct talkback button when communicating the the participant
 
 ### After measurement
-1. Turn off speakers. Do not turn off audio mixer.
+1. Turn off speakers. Do *not* turn off audio or video mixer.
 2. If using sound tubes make sure to through away eartips and wipe tubes with alcohol
