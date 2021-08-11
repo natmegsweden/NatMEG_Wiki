@@ -39,6 +39,7 @@ Use acquisition to handle the recording
 ## Issues
 ### How to restart Acquisition?
 <u>Problem</u>: Channels are not appearing when running Acquisition. Acquisition is giving errors about "lost connection" or "cannot connect to channels".
+
 <u>Solution</u>: In order do the following, if your problem keeps appearing then proceed to the next step; otherwise do not proceed:
 
 1. Check that the correct setting is loaded (File -> Load Settings). See if the missing channels are still missing.
