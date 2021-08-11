@@ -3,6 +3,8 @@
 * [Audio mixer](#audio-mixer)
 * [Eye-tracker](#eye-tracker)
 * [Screen and projector](#screen-and-projector)
+* [Tuning](#tuning)
+
 
 ---
 
@@ -59,6 +61,7 @@ Remember to press the correct talkback button when communicating the the partici
 ### There is no sound from the MSR/I cannot hear the participant
 
 <u>Problem</u>: there is no sound from the MSR, and I cannot hear if the participant is saying anything
+    
     > ! Your participant should, at all times, be able to speak to you. As the first thing, after you have positioned the participant in the scanner and left the MSR, you must test that the participant can hear you and you can hear them.
 
 <u>Solution</u>: Do the following
@@ -77,19 +80,21 @@ Remember to press the correct talkback button when communicating the the partici
 ## Before measurement
 1. Put screen in correct position (see [Screen and projector](#screen-and-projector))
 2. Start eye-tracker software by pressing the letter  *t*  on the keyboard, then press enter
-    >! If you do not see a terminal on the eye-tracking PC when you turn on the screen
+
+    > ! If you do not see a terminal on the eye-tracking PC when you turn on the screen
 
     > - Check that the screen setting of the Stimulation PC is not set in dual screen mode and that the correct input channel is selected
 
     > - Check that the eye-tracking computer is turned on. The computer is found at the bottom of the stimulation cabinet
 
-    >! To start eye-tracker in simulation mode type *t -x* and press enter
+    > ! To start eye-tracker in simulation mode type *t -x* and press enter
 
 3. Make sure you have the right configuration for your needs
 4. Adjust eye-tracker by moving the arm or by tilting the screen a bit. 
 
 ## During measurement
 1. Monitor eye-positions 
+    
     > ! As participants tend to sink down a bit during recordings eye-tracking may be lost if not chair is raised properly
    
     > ! If using the table, make sure pads or participant's hands are not blocking the eye-tracker
@@ -117,6 +122,7 @@ The eye-tracker has been disconnected from the cables in the MSR. Reconnect the 
 1. Drag the mirror into the right position
 2. Place monitor in front of the mirror at the markings on the floor
 3. Turn on projector by pressing on time at the remote control
+    
     > ! If participant is seated in the chair, be careful not to blind the participant with the light from the projector
 
 ## During measurement
@@ -128,4 +134,32 @@ Just remember that the participant can see what you see on the screen.
 
 ---
 
+# Tuning
+Tuning is not always needed, but recommend at least for the first measure of the day.
+
+## Before measurement
+1. Open Acquisition
+2. Click the menu Tools -> Tuner. The tuning tool will appear.
+3. Click file -> load tuning. A message will pop up asking if you want to read the default state tuning. Click ok.
+
+    > ! Optionally, you can click "measure noise" before loading the tuning and again after loading the tuning to see the noise level.
+    >The average noise level should be around 2.6-2.7.
+
+## During measurement
+No action required
+
+## After measurement
+No action required
+
+## Issues
+
+### The average noise level is too high (> 3) after loading the default tuning
+
+<u>Solution</u>: Do the following:
+    1. Check that there are no objects in the MSR that could be causing disturbances, e.g. non-tested metallic stimulus equipment, left items, etc. Remove those items
+    2. Run new tuning: click "measure noise" and when it has measured the noise level, click "Tune". The tuning procedure with iterate through tuning parameters and try to minimize the noise in the system. Each iteration takes about 20 seconds. Click "stop tuning" when the average noise level is below 2.7.
+ 
+    > ! The tuning procedure takes up to 15 min. Make sure that you have enough time to run the tuning procedure and always check the tuning well in advance before your participant arrives.
+
+    > ! If channels are missing, you might have to restart Acquisition (see this [Acquisition section](#acquisition)) before continuing with the tuning or call for assistance.
 
