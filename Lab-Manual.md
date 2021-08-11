@@ -1,7 +1,8 @@
+# Table of content
 * [Showing visual stimuli on the screen](#showing-visual-stimuli-on-the-screen)
 * [Using audio](#using-audio)
 
-
+---
 # Showing visual stimuli on the screen
 
 ### Equipment you need:
