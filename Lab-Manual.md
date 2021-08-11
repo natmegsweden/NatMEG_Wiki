@@ -4,6 +4,7 @@
 * [Audio mixer](#audio-mixer)
 * [Check channels](#check-channels)
 * [Eye-tracker](#eye-tracker)
+* [HPI](#hpi)
 * [Screen and projector](#screen-and-projector)
 * [Tuning](#tuning)
 
