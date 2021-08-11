@@ -170,17 +170,21 @@ The eye-tracker has been disconnected from the cables in the MSR. Reconnect the 
 # HPI
 
 ## Before measurement
+1. Check so that the correct HPI preparation is loaded
+2. Remember to check  *cHPI*  in the Acquisition window
+
 To monitor head position, open a terminal and type:
 > /data/MNE/mne_visualize_hpi
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-tool.jpg" alt="hpi-tool" width="300"/>
 
 The head position is read from the latest HPI fit. Click" Reload HPI" to update the view.
 > ! Be aware that the head position tool does not show the actual participants head. The head is a template head and should only be used as an approximation of the participant's real head position in the MEG helmet.
 
-
-
 ## During measurement
 
-You can rotate the head using the buttons on the GUI or by using the mouse wheel. You can change what is displayed (helmet, transparency, HPI on/off, head point fits, etc.) by pressing "Options...".
+1. After each time you've stopped a measurement you need to check the *cHPI* box again
+
+You can rotate the head in the head position tool using the buttons on the GUI or by using the mouse wheel. You can change what is displayed (helmet, transparency, HPI on/off, head point fits, etc.) by pressing "Options...".
 
 To view the head position from a previous file (e.g. for comparison) open a new terminal window and type: 
 > /data/MNE/mne_visualize_hpi_file <filename>
