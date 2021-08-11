@@ -100,6 +100,9 @@ Open: Menu -> Neuromag -> Squiddler
 
 
 In Squiddler:
+
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/squiddler.jpg" alt="squiddler" width="700"/>
+
 1. Select channel with slider
 2. Open Commands, click Heat Channel. Wait until the channels settle then inspect if the channel looks fine. Inspect if other channels have been affected by the heating.
 3. Repeat 1-2 for all bad channels.
