@@ -179,6 +179,12 @@ If [Acquisition](#acquisition) does not ask about measuring HPI, it might be bec
 
 <u>Solution</u>: load the correct preparation with the digitized HPI coil locations
 > ! Note that every time you click start in Acquisition, it saves a new preparation, so make sure that you note the time you saved the preparation with the digitized HPI on the digitization PC.
+
+### HPI errors
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-results.png" alt="hpi-results" width="700"/>
+
+<u>Problem</u>: Errors with HPI. It gives an error message or Suggestion is redo HPI.
+
 ---
 
 # Screen and projector
