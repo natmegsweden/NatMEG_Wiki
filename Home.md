@@ -3,7 +3,7 @@ Welcome to the NatMEG wiki, here you can find documentation for issues related t
 ## Working in the lab
 * [NatMEG Lab FAQ (pdf download)](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/NatMEG%20lab%20FAQ.pdf)
 * [Lab protocol example (docx download)](https://natmeg.se/services/MEG_protocol_template.docx)
-* [NatMEG Lab Manual] (https://github.com/natmegsweden/NatMEG_Wiki/wiki/Lab-Manual)
+* [NatMEG Lab Manual](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Lab-Manual)
 ## Setting up data analysis
 * [Connect to Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Connect-to-Compute)
 * [Troubleshoot errors on Compute](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Troubleshooting-errors-on-Compute)
