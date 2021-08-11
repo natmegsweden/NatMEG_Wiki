@@ -28,8 +28,8 @@ There are one audio mixer and one video mixer in the lab. Both should always be 
 <img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/video_mixer.jpg" alt="video_mixer" width="400"/>
 
 ### Before measurement
-1. Make sure speakers is on
-   > ! there are separate speakers for the stimuli audio and the talkback microphone.
+1. Make sure speakers in the control room are turned on. 
+   > ! There are separate speakers for the stimuli audio and the talkback microphone. The left ones are for stimuli audio and the right ones are for talkback.
 2. Make sure audio mixer is running and that you have the right configuration (MSR speakers or sound tubes)
    > ! If using the sound tubes be carful not to have too loud talkback volume
 3. Check volume with participant
