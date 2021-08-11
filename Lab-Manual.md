@@ -8,24 +8,63 @@
 
 # Audio mixer
 
-There are one audio mixer and one video mixer in the lab. Both should always be turned on.
+See picture below for an overview of how to control the sound mixer. The mixer should as default always be on. If it is switched off, use the on/off switch on the backside of the mixer to switch it back on.
 
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer.jpg" alt="audio_mixer" width="400"/>
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/video_mixer.jpg" alt="video_mixer" width="400"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer_marked.jpg" alt="audio_mixer_marked" width="700"/>
+
+
+A. Select input. Sound from Stimulus Computer (A) and/or Audiofile (B)
+
+B. Select the MSR backpanal loudspeakers as output and adjust the volume.
+
+C. Select the sound tubes as output.
+
+D. Select the Control Room speakers (the small speakers next to the mixer) as output.
+
+E. Talkback. Hold down either button to use the mixer to speak to the participant inside the MSR.
+   - Left button: speak though sound tubes. 
+   - Right button: speak though the backpanel speakers.
+
+F. Microphone for talkback.
+
+G. Volume adjustment
+
 
 ## Before measurement
 1. Make sure speakers in the control room are turned on. 
    > ! There are separate speakers for the stimuli audio and the talkback microphone. The left ones are for stimuli audio and the right ones are for talkback.
-2. Make sure audio mixer is running and that you have the right configuration (MSR speakers or sound tubes)
+2. Make sure audio mixer is on and that you have the right configuration (MSR speakers or sound tubes)
    > ! If using the sound tubes be carful not to have too loud talkback volume
 3. Check volume with participant
 
 ## During measurement
-Remember to press the correct talkback button when communicating the the participant
+Remember to press the correct talkback button when communicating the the participant (MSR speakers or sound tubes)
 
 ## After measurement
-1. Turn off speakers. Do *not* turn off audio or video mixer.
+1. Turn off speakers. Do *not* turn off audio mixer.
 2. If using sound tubes make sure to through away eartips and wipe tubes with alcohol
+
+## Issues
+### There is no sound to the MSR
+
+<u>Problem</u>: sound from the Stimulation Computer, Audiofile, or talkback does not appear inside the MSR
+
+<u>Solution</u>: Do the following
+- Check that the sound on the Stimulation Computer is on and at full volume.
+- Make sure that the correct input is selected (A in the figure above).
+- Make sure that the correct output is selected (B or C in the figure above).
+- For sound tubes: check that the sound tube amplifier is switched on. The sound tube amplifier is located in the Stimulus Cabinet. Switch it on if it is switched off. WARNING: do not switch it on a participant has the sound tubes in their ears. 
+- For backpanel speakers: check that the backpanel speaker amplifiers are switched on. The amplifiers are located on the top shelf of the MSR Cabinet. Switch on the amplifiers (the two small boxed; they should be blinking rapidly) and the input/output board if any are switched off.
+
+### There is no sound from the MSR/I cannot hear the participant
+
+<u>Problem</u>: there is no sound from the MSR, and I cannot hear if the participant is saying anything
+    > ! Your participant should, at all times, be able to speak to you. As the first thing, after you have positioned the participant in the scanner and left the MSR, you must test that the participant can hear you and you can hear them.
+
+<u>Solution</u>: Do the following
+- Make sure that the MSR monitor (the big loudspeaker on top of the Stimulation Cabinet) is switched on. The on/off switch is on the backside of the MSR monitor. The light in the logo on the front of the monitor will be on when the monitor is turned on.
+- Make sure that you are using the correct talkback option; i.e. using the sound tube talkback when using the sound tubes.
+- Make sure that the sound mixer is turned on. The sound also go through the video mixer; make sure that the video mixer is also turned on. Buttons on the video mixer have a red light when they are turned on. There is a small on/off switch on the back of the video mixer to turn it back on if it has been turned off.
 
 ---
 
@@ -36,7 +75,7 @@ Remember to press the correct talkback button when communicating the the partici
 - Eye-tracker
 
 ## Before measurement
-1. Put screen in correct position [See this section](#showing-visual-stimuli-on-the-screen)
+1. Put screen in correct position (see [Screen and projector](#screen-and-projector))
 2. Start eye-tracker software by pressing *T* on the keyboard
 3. Make sure you have the right configuration for your needs
 4. Adjust eye-tracker by moving the arm or by tilting the screen a bit. 
@@ -52,6 +91,10 @@ Remember to press the correct talkback button when communicating the the partici
 ## After measurement
 1. Turn off eye-tracking software
 2. Remove eye-tracker and put back in box
+
+
+
+
 
 ---
 
