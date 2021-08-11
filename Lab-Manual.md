@@ -10,7 +10,27 @@
 ---
 
 # Acquisition
+Acquisition is the main program you need for running the MEG-recording.
 
+## Before measurement
+Open: Menu -> Neuromag -> Acquisition
+
+1. Load project
+2. Load settings
+3. Add participant
+4. Load digitisation
+
+## During measurement
+Use acquisition to handle the recording
+1. Press *GO!* to start recording buffer
+> ! Don't forget to [check channels](#check-channels)
+2. Check *cHPI* to record continuous head position
+3. Check *Record raw* to record raw file(s)
+4. Check *Average* to record average evoked file(s)
+
+## After measurement
+1. Save data files
+> ! If Average box was checked, the first file to save will be the average file, then the raw file
 
 ---
 
