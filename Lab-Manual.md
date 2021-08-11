@@ -7,6 +7,10 @@
 * [Screen and projector](#screen-and-projector)
 * [Tuning](#tuning)
 
+---
+
+Acquisition
+
 
 ---
 
