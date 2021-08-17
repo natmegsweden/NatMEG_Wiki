@@ -232,7 +232,7 @@ Close head position tool
 ### Acquisition does not ask about measuring HPI
 [Acquisition](#acquisition) will automatically ask if you want to do/redo HPI fit every time you click START or RESTART. If you pressed Skip but want to do the HPI fit anyway, you need to restart the recording.
 
-If [Acquisition](#acquisition) does not ask about measuring HPI, it might be because it has not registered the HPI digitization. You can check if HPI is digitized in the [Acquisition](#acquisition) main window. It will either specify the time the HPI was digitized or say "HPI: not digitized!"
+<u>Problem</u>: If [Acquisition](#acquisition) does not ask about measuring HPI, it might be because it has not registered the HPI digitization. You can check if HPI is digitized in the [Acquisition](#acquisition) main window. It will either specify the time the HPI was digitized or say "HPI: not digitized!"
 
 <u>Solution</u>: load the correct preparation with the digitized HPI coil locations
 > ! Note that every time you click start in Acquisition, it saves a new preparation, so make sure that you note the time you saved the preparation with the digitized HPI on the digitization PC.
