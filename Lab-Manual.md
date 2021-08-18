@@ -1,4 +1,4 @@
-# The NatMEG Lab Manual
+# The NatMEG Lab Manual (test push)
 
 **[Acquisition](#acquisition)**
 
