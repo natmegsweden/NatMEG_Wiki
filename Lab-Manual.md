@@ -1,22 +1,54 @@
-# Table of content
+# The NatMEG Lab Manual
 
-* [Acquisition](#acquisition)
-* [Audio mixer](#audio-mixer)
-* [Check channels](#check-channels)
-* [Eye-tracker](#eye-tracker)
-* [File naming](#file-naming)
-* [HPI](#hpi)
-* [Lab notebook](#lab-notebook)
-* [Monitors](#monitors)
-* [Screen and projector](#screen-and-projector)
-* [Tuning](#tuning)
+**[Acquisition](#acquisition)**
+
+**[Audio mixer](#audio-mixer)**
+
+**[Check channels](#check-channels)**
+
+**[Eye-tracker](#eye-tracker)**
+
+**[File naming](#file-naming)**
+
+**[HPI](#hpi)**
+
+**[Lab notebook](#lab-notebook)**
+
+**[Monitors](#monitors)**
+
+**[Screen and projector](#screen-and-projector)**
+
+**[Tuning](#tuning)**
+
+
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/natmeg_logo.jpg" alt="natmeg_logo" width="150"/>
+<div style="visibility: hidden">
+\
+\
+\
+
+![](https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/natmeg_logo.jpg){width=150px}
+
+
+\
+\
+
+</div>
+
+2021-08-17
 
 ---
 
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # Acquisition
+
 Acquisition is the main program you need for running the MEG-recording.
 
 ## Before measurement
+
 Open: Menu -> Neuromag -> Acquisition
 
 1. Load project
@@ -25,37 +57,50 @@ Open: Menu -> Neuromag -> Acquisition
 4. Load digitisation
 
 ## During measurement
+
 Use acquisition to handle the recording
-1. Press  *GO!*  to start recording buffer
+
+1. Press  **GO!**  to start recording buffer
+
 > ! Don't forget to [check channels](#check-channels)
-2. Check  *cHPI*  to record continuous head position
-3. Check  *Record raw*  to record raw file(s)
-4. Check  *Average*  to record average evoked file(s)
+
+2. Check  **cHPI**  to record continuous head position
+3. Check  **Record raw**  to record raw file(s)
+4. Check  **Average**  to record average evoked file(s)
 
 ## After measurement
 1. Save data files
-> ! If Average box was checked, the first file to save will be the average file, then the raw file
+
+> ! If Average box was checked, the first file to save will be the average file, then the raw file<p>
 > ! Make sure to have a structured way of naming the files
 
 ## Issues
+
 ### How to restart Acquisition?
+
 <u>Problem</u>: Channels are not appearing when running Acquisition. Acquisition is giving errors about "lost connection" or "cannot connect to channels".
 
 <u>Solution</u>: In order do the following, if your problem keeps appearing then proceed to the next step; otherwise do not proceed:
 
 1. Check that the correct setting is loaded (File -> Load Settings). See if the missing channels are still missing.
 2. Close and re-open Acquisition Programs (remember to save preparations if you have already begun).
-3. Restart Acquisition Programs. You find this option under the Neuromag top menu, "Maintenance". (Menu -> Neruomag -> Maintenance -> Restart  Acquisition). A terminal will pop up—type y to confirm. The restart might take a couple of minutes. Once the restart has completed, you need to restart Acquisition and also launch the Tuner and reload the current tunings you are using. 
+3. Restart Acquisition Programs. You find this option under the Neuromag top menu, "Maintenance". (Menu -> Neruomag -> Maintenance -> Restart  Acquisition). A terminal will pop up—type y to confirm. The restart might take a couple of minutes. Once the restart has completed, you need to restart Acquisition and also launch the Tuner and reload the current tunings you are using.
 4. If none of the above works, you will need to do a "hard reset". Close any open instances of Acquisition. You then need to go into the machine room (through Daniel's office). Open the right door on the cabinet in the middle of the room. Look for a sticker pointing to a reset button. Press that button. Watch all lights flash red and then go all green (look for any red lights; there should be none).
 
-
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
 
 # Audio mixer
 
 See picture below for an overview of how to control the sound mixer. The mixer should as default always be on. If it is switched off, use the on/off switch on the backside of the mixer to switch it back on.
 
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/audio_mixer_marked.jpg" alt="audio_mixer_marked" width="700"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/audio_mixer_marked.jpg" alt="audio_mixer_marked" width="500"/>
+<div style="visibility: hidden">
+![](https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/audio_mixer_marked.jpg)
+</div>
 
 
 A. Select input. Sound from Stimulus Computer (A) and/or Audiofile (B)
@@ -67,29 +112,36 @@ C. Select the sound tubes as output.
 D. Select the Control Room speakers (the small speakers next to the mixer) as output.
 
 E. Talkback. Hold down either button to use the mixer to speak to the participant inside the MSR.
-   - Left button: speak though sound tubes. 
+   - Left button: speak though sound tubes.
    - Right button: speak though the backpanel speakers.
 
 F. Microphone for talkback.
 
 G. Volume adjustment
 
-
 ## Before measurement
-1. Make sure speakers in the control room are turned on. 
+
+1. Make sure speakers in the control room are turned on.
+
 > ! There are separate speakers for the stimuli audio and the talkback microphone. The left ones are for stimuli audio and the right ones are for talkback.
+
 2. Make sure audio mixer is on and that you have the right configuration (MSR speakers or sound tubes)
+
 > ! If using the sound tubes be carful not to have too loud talkback volume
+
 3. Check volume with participant
 
 ## During measurement
+
 Remember to press the correct talkback button when communicating the the participant (MSR speakers or sound tubes)
 
 ## After measurement
+
 1. Turn off speakers. Do *not* turn off audio mixer.
 2. If using sound tubes make sure to through away eartips and wipe tubes with alcohol
 
 ## Issues
+
 ### There is no sound to the MSR
 
 <u>Problem</u>: sound from the Stimulation Computer, Audiofile, or talkback does not appear inside the MSR
@@ -98,12 +150,13 @@ Remember to press the correct talkback button when communicating the the partici
 - Check that the sound on the Stimulation Computer is on and at full volume.
 - Make sure that the correct input is selected (A in the figure above).
 - Make sure that the correct output is selected (B or C in the figure above).
-- For sound tubes: check that the sound tube amplifier is switched on. The sound tube amplifier is located in the Stimulus Cabinet. Switch it on if it is switched off. WARNING: do not switch it on a participant has the sound tubes in their ears. 
+- For sound tubes: check that the sound tube amplifier is switched on. The sound tube amplifier is located in the Stimulus Cabinet. Switch it on if it is switched off. WARNING: do not switch it on a participant has the sound tubes in their ears.
 - For backpanel speakers: check that the backpanel speaker amplifiers are switched on. The amplifiers are located on the top shelf of the MSR Cabinet. Switch on the amplifiers (the two small boxed; they should be blinking rapidly) and the input/output board if any are switched off.
 
 ### There is no sound from the MSR/I cannot hear the participant
 
 <u>Problem</u>: there is no sound from the MSR, and I cannot hear if the participant is saying anything
+
 > ! Your participant should, at all times, be able to speak to you. As the first thing, after you have positioned the participant in the scanner and left the MSR, you must test that the participant can hear you and you can hear them.
 
 <u>Solution</u>: Do the following
@@ -112,6 +165,11 @@ Remember to press the correct talkback button when communicating the the partici
 - Make sure that the sound mixer is turned on. The sound also go through the video mixer; make sure that the video mixer is also turned on. Buttons on the video mixer have a red light when they are turned on. There is a small on/off switch on the back of the video mixer to turn it back on if it has been turned off.
 
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # Check channels
 
 After [tuning](#tuning) and before each measurement you should check the channels.
@@ -138,13 +196,20 @@ Open: Menu -> Neuromag -> Squiddler
 
 In Squiddler:
 
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/squiddler.jpg" alt="squiddler" width="700"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/squiddler.jpg" alt="squiddler" width="500"/>
+<div style="visibility: hidden">
+![](https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/squiddler.jpg)
+</div>
 
 1. Select channel with slider
 2. Open Commands, click Heat Channel. Wait until the channels settle then inspect if the channel looks fine. Inspect if other channels have been affected by the heating.
 3. Repeat 1-2 for all bad channels.
 
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
 
 # Eye-tracker
 
@@ -155,6 +220,7 @@ In Squiddler:
 ## Before measurement
 1. Put screen in correct position (see [Screen and projector](#screen-and-projector))
 2. Start eye-tracker software by pressing the letter  *t*  on the keyboard, then press enter
+
 > ! If you do not see a terminal on the eye-tracking PC when you turn on the screen
 > - Check that the screen setting of the Stimulation PC is not set in dual screen mode and that the correct input channel is selected
 > - Check that the eye-tracking computer is turned on. The computer is found at the bottom of the stimulation cabinet
@@ -162,11 +228,12 @@ In Squiddler:
 > ! To start eye-tracker in simulation mode type *t -x* and press enter
 
 3. Make sure you have the right configuration for your needs
-4. Adjust eye-tracker by moving the arm or by tilting the screen a bit. 
+4. Adjust eye-tracker by moving the arm or by tilting the screen a bit.
 
 ## During measurement
 1. Monitor eye-positions
-> ! As participants tend to sink down a bit during recordings eye-tracking may be lost if not chair is raised properly
+
+> ! As participants tend to sink down a bit during recordings eye-tracking may be lost if not chair is raised properly<br>
 > ! If using the table, make sure pads or participant's hands are not blocking the eye-tracker
 
 2. Check calibration
@@ -181,9 +248,15 @@ In Squiddler:
 The eye-tracker has been disconnected from the cables in the MSR. Reconnect the eye-tracker or close the eye-tracking program.
 
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # File naming
 
 Plan in advance how you want to name your files. You may have different conditions or times of measurement. Plan also for how you want to name the files if you have to stop recordings.
+
 > ! Acquisition does not allow special characters or spaces in the filename
 
 ## Issues
@@ -192,14 +265,21 @@ Plan in advance how you want to name your files. You may have different conditio
 <u>Problem</u>: One or more recording is saved with a wrong filename
 
 <u>Solution</u>: rename filenames
-1. Open a terminal: go to the data folder (replace <text> with the text that applies your project; do not write the < > signs): 
+
+1. Open a terminal: go to the data folder (replace <text> with the text that applies your project; do not write the < > signs):
 /neuro/data/sinhue/<your_project_name>/NatMEG_<number>/<YYMMDD>
-2. Rename the file: 
-mv <old_filename.fif> <new_filename.fif>. 
+2. Rename the file:
+mv <old_filename.fif> <new_filename.fif>.
 Press enter.
 
 > ! Be aware that if a file with the new filename already exists, it will be overwritten with no option to recover the lost data. Rename any overlapping named file first.
+
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # HPI
 
 ## Before measurement
@@ -207,10 +287,12 @@ Press enter.
 2. Remember to check  *cHPI*  in the Acquisition window
 
 To monitor head position, open a terminal and type:
+
 > /data/MNE/mne_visualize_hpi
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-tool.jpg" alt="hpi-tool" width="300"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/hpi-tool.jpg" alt="hpi-tool" width="300"/>
 
 The head position is read from the latest HPI fit. Click" Reload HPI" to update the view.
+
 > ! Be aware that the head position tool does not show the actual participants head. The head is a template head and should only be used as an approximation of the participant's real head position in the MEG helmet.
 
 ## During measurement
@@ -219,7 +301,8 @@ The head position is read from the latest HPI fit. Click" Reload HPI" to update 
 
 You can rotate the head in the head position tool using the buttons on the GUI or by using the mouse wheel. You can change what is displayed (helmet, transparency, HPI on/off, head point fits, etc.) by pressing "Options...".
 
-To view the head position from a previous file (e.g. for comparison) open a new terminal window and type: 
+To view the head position from a previous file (e.g. for comparison) open a new terminal window and type:
+
 > /data/MNE/mne_visualize_hpi_file <filename>
 
 The <filename> is the filename of the file you want to read including the full path
@@ -235,10 +318,14 @@ Close head position tool
 <u>Problem</u>: If [Acquisition](#acquisition) does not ask about measuring HPI, it might be because it has not registered the HPI digitization. You can check if HPI is digitized in the [Acquisition](#acquisition) main window. It will either specify the time the HPI was digitized or say "HPI: not digitized!"
 
 <u>Solution</u>: load the correct preparation with the digitized HPI coil locations
+
 > ! Note that every time you click start in Acquisition, it saves a new preparation, so make sure that you note the time you saved the preparation with the digitized HPI on the digitization PC.
 
 ### HPI errors
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/hpi-results.png" alt="hpi-results" width="400"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/hpi-results.png" alt="hpi-results" width="400"/>
+<div style="visibility: hidden">
+![](https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/hpi-results.png)
+</div>
 
 <u>Problem</u>: Errors with HPI. It gives an error message or Suggestion is redo HPI.
 
@@ -252,9 +339,16 @@ Close head position tool
 
 ---
 
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # Lab notebook
 
-<img src="https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/lab-notebook.jpg" alt="lab-notebook" width="600"/>
+<img src="https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/lab-notebook.jpg" alt="lab-notebook" width="500"/>
+<div style="visibility: hidden">
+![](https://github.com/natmegsweden/NatMEG_Wiki/raw/main/wiki_images/lab-notebook.jpg)
+</div>
 
 The Lab notebook helps you to note important things for your project. You can add project specific details in the Project column, subject specific details in the Subject column or measurement specific details in the Date column. The Lab notebook is saved as json-files and txt-files in your project folder.
 
@@ -272,18 +366,20 @@ Make sure all notes have been added and close the Lab notebook
 
 ## Issues
 ### Lab Notebook does not start
-
 <u>Problem</u>: If you cannot open Lab Notebook and get and error message saying Firefox is already running.
-
 <u>Solution</u>: Open a new terminal and type:
+
 > pkill -f firefox
 
 This shuts down all Firefox processes. Then open the notebook server and the notebook from the desktop.
 
 ---
 
-# Monitors
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
 
+# Monitors
 ## Dual monitors
 You can use dual monitors on the Stimulation PC if you want to run Presentation separate from the screen shown to the participant in the MSR, for example, if you are going to show a video to the participant instead of the Presentation screen.
 
@@ -295,7 +391,13 @@ Presentation will still as a default run on the first monitor. Change the monito
 
 ## After measurement
 Remember to switch the screens back to the standard setting when you are done.
+
 ---
+
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # Screen and projector
 
 ## Equipment required
@@ -305,6 +407,7 @@ Remember to switch the screens back to the standard setting when you are done.
 1. Drag the mirror into the right position
 2. Place monitor in front of the mirror at the markings on the floor
 3. Turn on projector by pressing on time at the remote control
+
 > ! If participant is seated in the chair, be careful not to blind the participant with the light from the projector
 
 ## During measurement
@@ -316,6 +419,10 @@ Just remember that the participant can see what you see on the screen.
 
 ---
 
+<div style="page-break-after: always; visibility: hidden">
+\newpage
+</div>
+
 # Tuning
 Tuning is not always needed, but recommend at least for the first measure of the day.
 
@@ -323,7 +430,9 @@ Tuning is not always needed, but recommend at least for the first measure of the
 1. Open Acquisition
 2. Click the menu Tools -> Tuner. The tuning tool will appear.
 3. Click file -> load tuning. A message will pop up asking if you want to read the default state tuning. Click ok.
+
 > ! Optionally, you can click "measure noise" before loading the tuning and again after loading the tuning to see the noise level.
+
 > The average noise level should be around 2.6-2.7.
 
 ## During measurement
@@ -341,5 +450,5 @@ No action required
     2. Run new tuning: click "measure noise" and when it has measured the noise level, click "Tune". The tuning procedure with iterate through tuning parameters and try to minimize the noise in the system. Each iteration takes about 20 seconds. Click "stop tuning" when the average noise level is below 2.7.
 
 > ! The tuning procedure takes up to 15 min. Make sure that you have enough time to run the tuning procedure and always check the tuning well in advance before your participant arrives.
-> ! If channels are missing, you might have to restart Acquisition (see this [Acquisition section](#acquisition)) before continuing with the tuning or call for assistance.
 
+> ! If channels are missing, you might have to restart Acquisition (see this [Acquisition section](#acquisition)) before continuing with the tuning or call for assistance.
