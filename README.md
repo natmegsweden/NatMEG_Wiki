@@ -9,4 +9,4 @@ If you are affiliated with NatMEG or have access to the NatMEG facility, you sho
 
 Feel free to add/edit if you have solutions or tips and tricks that regardig laboratory procedures or analysis that is of interest to all MEG lab users.
 
-You can also browse the ![Lab-Manual](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Lab-Manual) if you get stuck in the lab.
+You can also browse the [Lab-Manual](https://github.com/natmegsweden/NatMEG_Wiki/wiki/Lab-Manual) if you get stuck in the lab.
