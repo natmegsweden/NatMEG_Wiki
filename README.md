@@ -1,7 +1,7 @@
 # NatMEG example scripts and tutorials
 Example scripts and tutorials for setting up various toolboxes and how to run common analysis and data processing steps on the NatMEG servers.
 
-To go to the Wiki pages click on the Wiki icon above.
+To go to the [Wiki pages](https://github.com/natmegsweden/NatMEG_Wiki/wiki) click on the Wiki icon above.
 
 ![wiki](https://github.com/natmegsweden/NatMEG_Wiki/blob/main/wiki_images/wiki.png)
 
